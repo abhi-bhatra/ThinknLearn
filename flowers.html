@@ -97,7 +97,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Name this Animal</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Click To Scan</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -182,8 +182,12 @@
         const prediction = await model.predict(webcam.canvas);
         for (let i = 0; i < maxPredictions; i++) {
             const classPrediction =
-                prediction[i].className + ": " + prediction[i].probability.toFixed(2);
-            labelContainer.childNodes[i].innerHTML = classPrediction;
+               "Wow, It's a "+prediction[i].className;
+                if(prediction[i].probability.toFixed(2) == 1.00){
+                    labelContainer.innerHTML = classPrediction;
+                    setTimeout(() => { window.open("https://en.wikipedia.org/wiki/"+prediction[i].className,'_blank') }, 2000);
+                    break;
+                }
         }
     }
 </script>

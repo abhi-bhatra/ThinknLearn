@@ -10,14 +10,12 @@ The UI of the project is made very comfortable and simple by keeping it in mind 
 - TensorFlow to train Image Classification models, also uses TensorFlow JS to embed it in the web app.
 - Azure Chat Bot services is used to train and deploy the Chatbot in the web app.
 - HTML, CSS, Bootstrap and JS is used to design the frontend of the web app. 
--	Azure Web App Service is used to host our project.
 - GitHub is used to store the source files and provides continuous integration with Azure Static Apps (preview)
 
 
 ## About team - Coding Connoisseurs
-> It is a team of Coding enthusiasts which came together to bring up the new and innovative approach to the way of learning. We are Imagine Cup India World Finalist. People with an aim to provide sustainable solutions to various real-life problems. We work as a Green-Tech community.
-- Abhinav Sharma: A passionate Python Developer and a Machine Learning Enthusiast, skilled in Neural Networking, Django and Cloud Computing (especially Azure and GCP).
-- Akshat Soni: AWS CSA Developer trainee at LinuxWorld Informatics Pvt. Ltd. Remarkable work done in the field of RedHat. Skilled in Docker, Machine Learning for Artificial Intelligence, Flutter App Development.
+> It is a team of Coding enthusiasts which came together to bring up the new and innovative approach to the way of learning. We are Imagine Cup India India Finalist. People with an aim to provide sustainable solutions to various real-life problems. We work as a Green-Tech community.
+
 ---
 ### Note:
 > Project is under-construction, Not for Distribution. We are building upon its Interface, both PWA(Progressive Web App) as well as Mobile App.
